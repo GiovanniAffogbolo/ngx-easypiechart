@@ -1,0 +1,8 @@
+version: '3'
+services:
+  www:
+    image: "ngx-easypiechart:devel-1.0.0"
+    ports:
+      - "127.0.0.1:24200:4200"
+    volumes:
+      - /opt/code/ngx-easypiechart:/opt/code/ngx-easypiechart

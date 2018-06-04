@@ -11,3 +11,8 @@ RUN adduser -g "" -D  ${MY_USER}
 
 USER ${MY_USER}
 WORKDIR /home/${MY_USER}
+RUN which ng && \
+  ng version
+
+# Launch the image in a container as below
+# docker-compose up --force-recreate -d --remove-orphans

@@ -1,6 +1,6 @@
 {
   "name": "ngx-easy-pie-chart",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "repository": {
     "type": "git",
     "url": "https://github.com/akkumar/ngx-easypiechart"
@@ -15,8 +15,12 @@
     "typescript": "~2.7.2",
     "@angular/common": "~6.0.3",
     "@angular/core": "~6.0.3",
+    "@angular/compiler": "~6.0.3",
+    "@angular/compiler-cli": "~6.0.3",
     "@angular/platform-browser-dynamic": "6.0.3",
     "@angular/platform-browser": "6.0.3",
+    "@angular-devkit/build-ng-packagr": "~0.6.7",
+    "ng-packagr": "~3.0.1",
     "easy-pie-chart": "~2.1.7",
     "rxjs": "~6.2.0",
     "rxjs-compat": "~6.2.0",

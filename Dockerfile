@@ -9,10 +9,13 @@ RUN whoami && \
 RUN npm install -g @angular/cli@${ANGULAR_CLI_VERSION}
 RUN adduser -g "" -D  ${MY_USER}
 
+ARG ENV_GROUP=node
+RUN adduser ${MY_USER} ${ENV_GROUP}
 USER ${MY_USER}
 WORKDIR /home/${MY_USER}
 RUN which ng && \
   ng version
+ENTRYPOINT /bin/sh -c "while true; do echo hello; sleep 100; done"
 
 # Launch the image in a container as below
 # docker-compose up --force-recreate -d --remove-orphans

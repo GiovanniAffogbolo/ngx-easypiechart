@@ -31,5 +31,8 @@
       "entryFile": "src/public_api.ts"
     },
     "dest": "./dist/ngx-easypiechart"
+  },
+  "scripts": {
+    "build": "ng build ngx-easy-pie-chart --prod"
   }
 }

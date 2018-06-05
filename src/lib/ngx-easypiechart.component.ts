@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-easypiechart',
+  selector: 'ngx-easypiechart',
   template: `
     <p>
       ngx-easypiechart works!

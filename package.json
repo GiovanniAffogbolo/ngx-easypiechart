@@ -1,0 +1,29 @@
+{
+  "name": "ngx-easypiechart",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akkumar/"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "easy-pie-chart": "~2.1.7"
+  },
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "typescript": "~2.7.2",
+    "@angular/common": "~6.0.3",
+    "@angular/core": "~6.0.3",
+    "easy-pie-chart": "~2.1.7",
+    "rxjs": "~6.2.0",
+    "rxjs-compat": "~6.2.0",
+    "zone.js": "~0.8.26"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    },
+    "dest": "./dist/ngx-easypiechart"
+  }
+}

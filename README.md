@@ -3,12 +3,21 @@ ng 6 module for easypiechart
 
 # Usage
 
+## package.json
+
+Add the following to ``package.json`` file.
+
+```json
+    "easy-pie-chart": "~2.1.7",
+    "ngx-easypiechart": "0.1.0"
+```
+
 ## app.module.ts
 
 Add the following to ``app.module.ts`` file.
 
 ```typescript
-import { NgxEasypiechartModule } from 'ngx-easy-pie-chart';
+import { NgxEasypiechartModule } from 'ngx-easypiechart';
 ..
 ..
 imports: [
@@ -21,10 +30,20 @@ imports: [
 ## macro
 
 ```html
-<ngx-easypiechart>
+<ngx-easypiechart [options]="options" [percent]="percent">
 </ngx-easypiechart>
 ```
 
+```typescript
+  constructor() {
+    this.percent = 80;
+    this.options = {
+      size: 50,
+      rotate: 0
+    };
+    ...
+  }
+```
 # Development
 
 ## Prepare dist version

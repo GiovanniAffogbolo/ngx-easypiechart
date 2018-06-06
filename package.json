@@ -1,13 +1,12 @@
 {
-  "name": "ngx-easy-pie-chart",
+  "name": "ngx-easypiechart",
   "version": "0.0.9",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/akkumar/ngx-easypiechart"
   },
   "peerDependencies": {
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0",
     "easy-pie-chart": "~2.1.7"
   },
   "devDependencies": {
@@ -33,6 +32,6 @@
     "dest": "./dist/ngx-easypiechart"
   },
   "scripts": {
-    "build": "ng build ngx-easy-pie-chart --prod"
+    "build": "ng build ngx-easypiechart --prod"
   }
 }

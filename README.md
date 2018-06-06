@@ -30,5 +30,11 @@ imports: [
 ## Prepare dist version
 
 ```bash
-ng build ngx-easy-pie-chart --prod
+ng build ngx-easypiechart --prod
+```
+
+#### aliter:
+
+```bash
+npm run build
 ```

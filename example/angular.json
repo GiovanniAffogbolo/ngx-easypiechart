@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "preserveSymlinks": true,
             "outputPath": "dist/example",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -25,7 +26,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/easy-pie-chart/dist/easypiechart.min.js"
+            ]
           },
           "configurations": {
             "production": {

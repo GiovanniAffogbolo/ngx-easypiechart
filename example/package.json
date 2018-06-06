@@ -25,6 +25,7 @@
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26",
     "easy-pie-chart": "~2.1.7",
+    "hoek": "~5.0.3",
     "ngx-easypiechart": "file:/opt/code/ngx-easypiechart/dist/ngx-easypiechart"
   },
   "devDependencies": {

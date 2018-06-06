@@ -23,7 +23,8 @@
     "easy-pie-chart": "~2.1.7",
     "rxjs": "~6.2.0",
     "rxjs-compat": "~6.2.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "hoek": "~5.0.3"
   },
   "ngPackage": {
     "lib": {

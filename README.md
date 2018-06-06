@@ -1,5 +1,5 @@
 # ngx-easypiechart
-ng 6 module for easypiechart
+ng 6 module for [easy-pie-chart](https://github.com/rendro/easy-pie-chart "Title")
 
 # Usage
 
@@ -44,6 +44,7 @@ imports: [
     ...
   }
 ```
+For the exhaustive list of options, refer to [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
 # Development
 
 ## Prepare dist version

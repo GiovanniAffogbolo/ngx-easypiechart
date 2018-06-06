@@ -44,7 +44,7 @@ imports: [
     ...
   }
 ```
-For the exhaustive list of options, refer to [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
+For the exhaustive list of options, refer to the [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
 # Development
 
 ## Prepare dist version

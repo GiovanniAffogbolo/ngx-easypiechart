@@ -1,5 +1,6 @@
 # docker build . -t ngx-easypiechart:devel-1.0.0
-FROM node:9.11-alpine
+ARG NODE_TAG=9.11-alpine
+FROM node:${NODE_TAG}
 ARG ANGULAR_CLI_VERSION=6.0.7
 ARG MY_USER=develop
 WORKDIR /tmp

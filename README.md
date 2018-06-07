@@ -1,9 +1,11 @@
+
 # ngx-easypiechart
+
 ng 6 module for [easy-pie-chart](https://github.com/rendro/easy-pie-chart "Title")
 
-# Usage
+## Usage
 
-## package.json
+### package.json
 
 Add the following to ``package.json`` file.
 
@@ -12,7 +14,7 @@ Add the following to ``package.json`` file.
     "ngx-easypiechart": "0.1.2"
 ```
 
-## app.module.ts
+### app.module.ts
 
 Add the following to ``app.module.ts`` file.
 
@@ -27,12 +29,14 @@ imports: [
 ]
 ```
 
-## macro
+### macro
 
 ```html
 <ngx-easypiechart [options]="options" [percent]="percent">
 </ngx-easypiechart>
 ```
+
+### typescript code
 
 ```typescript
   constructor() {
@@ -44,16 +48,18 @@ imports: [
     ...
   }
 ```
-For the exhaustive list of options, refer to the [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
-# Development
 
-## Prepare dist version
+For the exhaustive list of options, refer to the [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
+
+## Development
+
+### Prepare dist version
 
 ```bash
 ng build ngx-easypiechart --prod
 ```
 
-#### aliter:
+(aliter:)
 
 ```bash
 npm run build

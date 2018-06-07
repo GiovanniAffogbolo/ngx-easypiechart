@@ -37,6 +37,9 @@ export class NgxEasypiechartComponent implements OnInit, OnChanges {
     if (this.options && this.percent) {
       if (optionsChanged) {
         const node = this.element.nativeElement;
+        // TODO: For some reason , 'EasyPieChart' constructor creates a new chart / canvas everytime it is instantiated.
+        // wish there were a method to update options from an existing 'EasyPieChart' instance / object.
+        // Until then - we remove all existing children under the given div of the component and then recreate altogether if there are new options
         while (node.hasChildNodes()) {
           node.removeChild(node.lastChild);
         }

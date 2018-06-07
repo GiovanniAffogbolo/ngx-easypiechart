@@ -9,7 +9,7 @@ Add the following to ``package.json`` file.
 
 ```json
     "easy-pie-chart": "~2.1.7",
-    "ngx-easypiechart": "0.1.1"
+    "ngx-easypiechart": "0.1.2"
 ```
 
 ## app.module.ts

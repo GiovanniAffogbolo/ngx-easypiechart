@@ -1,8 +1,8 @@
-# docker build . -t ngx-easypiechart:devel-1.0.0
+# docker build . -t ngx-easypiechart-devel:1.0.0
 # node versions based off: https://hub.docker.com/_/node/
 ARG NODE_TAG=9.11-alpine
 FROM node:${NODE_TAG}
-ARG ANGULAR_CLI_VERSION=6.0.7
+ARG ANGULAR_CLI_VERSION=6.1.4
 ARG MY_USER=develop
 WORKDIR /tmp
 RUN whoami && \

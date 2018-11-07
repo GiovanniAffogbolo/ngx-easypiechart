@@ -1,40 +1,41 @@
 {
-  "name": "ngx-easypiechart",
-  "version": "0.1.4",
+  "name": "@cadenzo/ngx-easypiechart",
+  "version": "0.1.5",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/cadenzo/ngx-easypiechart"
   },
+  "scripts": {
+    "build": "ng build ngx-easypiechart --prod"
+  },
   "peerDependencies": {
     "easy-pie-chart": "^2.1.0",
-    "@angular/common": "^6.0.0",
-    "@angular/core": "^6.0.0"
+    "@angular/common": "^6.0.0 || ^7.0.0",
+    "@angular/core": "^6.0.0 || ^7.0.0"
   },
   "devDependencies": {
-    "eslint": "~4.19.1",
-    "typescript": "~2.7.2",
-    "@angular/common": "~6.0.3",
-    "@angular/core": "~6.0.3",
-    "@angular/compiler": "~6.0.3",
-    "@angular/compiler-cli": "~6.0.3",
-    "@angular/platform-browser-dynamic": "6.0.3",
-    "@angular/platform-browser": "6.0.3",
-    "@angular-devkit/build-ng-packagr": "~0.6.8",
+    "eslint": "~5.8.0",
+    "typescript": "~3.1.6",
+    "@angular/cli": "~7.0.4",
+    "@angular/common": "~7.0.2",
+    "@angular/core": "~7.0.2",
+    "@angular/compiler": "~7.0.2",
+    "@angular/compiler-cli": "~7.0.2",
+    "@angular/platform-browser-dynamic": "7.0.2",
+    "@angular/platform-browser": "7.0.2",
+    "@angular-devkit/build-ng-packagr": "~0.10.4",
     "ng-packagr": "~3.0.1",
     "easy-pie-chart": "~2.1.7",
-    "rxjs": "~6.2.0",
-    "rxjs-compat": "~6.2.0",
+    "rxjs": "~6.3.3",
     "zone.js": "~0.8.26",
-    "hoek": "~5.0.3"
+    "hoek": "~6.0.2",
+    "tsickle": "~0.33.1"
   },
   "ngPackage": {
     "lib": {
       "entryFile": "src/public_api.ts"
     },
     "dest": "./dist/ngx-easypiechart"
-  },
-  "scripts": {
-    "build": "ng build ngx-easypiechart --prod"
   }
 }

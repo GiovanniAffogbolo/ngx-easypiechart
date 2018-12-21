@@ -1,10 +1,10 @@
 {
   "name": "ngx-easypiechart",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cadenzo/ngx-easypiechart"
+    "url": "https://github.com/altoscode/ngx-easypiechart"
   },
   "scripts": {
     "build": "ng build ngx-easypiechart --prod"

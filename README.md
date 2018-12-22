@@ -1,7 +1,7 @@
 
 # ngx-easypiechart
 
-ng 6 module for easy-pie-chart.
+ng 6/7 module for easy-pie-chart.
 
 ## EasyPieChart
 

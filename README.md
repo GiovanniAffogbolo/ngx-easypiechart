@@ -15,7 +15,7 @@ Add the following to ``package.json`` file.
 
 ```json
     "easy-pie-chart": "~2.1.7",
-    "ngx-easypiechart": "0.1.5"
+    "ngx-easypiechart": "0.1.7"
 ```
 
 ### app.module.ts
@@ -54,17 +54,3 @@ imports: [
 ```
 
 For the exhaustive list of options, refer to the [original easy-pie-chart documentation](https://github.com/rendro/easy-pie-chart#options "Title")
-
-## Development
-
-### Prepare dist version
-
-```bash
-ng build ngx-easypiechart --prod
-```
-
-(aliter:)
-
-```bash
-npm run build
-```

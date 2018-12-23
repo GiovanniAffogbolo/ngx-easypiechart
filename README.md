@@ -33,7 +33,7 @@ imports: [
 ]
 ```
 
-### macro
+### HTML  ( macro )
 
 The following macro can be embedded in HTML to display the easy-pie-chart.
 

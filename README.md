@@ -35,6 +35,8 @@ imports: [
 
 ### macro
 
+The following macro can be embedded in HTML to display the easy-pie-chart.
+
 ```html
 <ngx-easypiechart [options]="options" [percent]="percent">
 </ngx-easypiechart>

@@ -1,4 +1,4 @@
-# docker build . -t ngx-easypiechart-devel:1.0.0
+# docker build . -t ngx-easypiechart-devel:10.9-alpine
 # node versions based off: https://hub.docker.com/_/node/
 ARG NODE_TAG=10.9-alpine
 FROM node:${NODE_TAG}
